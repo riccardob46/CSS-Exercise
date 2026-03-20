@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS exercise</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+.main-section {
+    padding: 20px;
+}
+.image-container{
+    height: 500px;
+    background-image:url("https://images.visititaly.eu/uploads/articoli/evidenza/07-cosa-vedere-a-roma-10-attrazioni-da-non-perdere-assolutamente.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+font-size: 64px;
+font-weight: 400;
+margin-bottom: 0;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1,h3 {
+    font-family: 'Prata', serif;
+}
+body {
+    font-family: 'Montserrat';
+}
+.author-link {
+    font-weight: 600;
+    font-style: italic;
+}
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #f9a83d, #fde7cd);
+}
+ul {
+    list-style-type: none;
+    padding: default;
+}
+li{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+li a:visited { 
+    color: #f9a83d;
+    text-decoration: none;
+}
+li a:link {
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+.Home{
+    text-align: center;
+}
+.Home a:link{
+    color: white;    
+}
+.Home a:visited{
+    color: white;
+}
+</style>
+</head>
+<body>
+    <div class="main-section"> 
+        <div class="image-container">
+        <h1>Roma</h1>
+        <h3>Roma, Lazio</h3>
+        <p>Autore: <a href="https://www.visititaly.eu/it/luoghi-e-itinerari/cose-da-fare-a-roma" classs="author-link">Visititaly.eu</a></p>
+        <h6>Luoghi correlati:</h6>
+        <ul>
+            <li><a href="Villepontificie.html">Ville Pontificie di Castel Gandolfo</a></li>
+            <li><a href="Montecavo.html">Monte Cavo</a></li>
+            <li><a href="Lagodinemi.html">Lago di Nemi</a></li>
+            <li><a href="Infiorata.html">Infiorata di Genzano di Roma</a></li>
+            <li><a href="index.html">Lago Albano</a></li>
+        </ul>
+        </div>
+    </div>
+    <footer>
+        <div class= Home>
+            <a href="index.html">Torna alla Home</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+.main-section {
+    padding: 20px;
+}
+.image-container{
+    height: 500px;
+    background-image:url("https://www.visitlazio.com/app/uploads/2023/11/Parco-dei-Castelli-Romani-RM-Veduta-dela-Lago-di-Albano-da-Castelgandolfo-1-1024x407.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+font-size: 64px;
+font-weight: 400;
+margin-bottom: 0;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1,h3 {
+    font-family: 'Prata', serif;
+}
+body {
+    font-family: 'Montserrat';
+}
+.author-link {
+    font-weight: 600;
+    font-style: italic;
+}
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #c89a0b, #2aa0c8);
+}
+ul {
+    list-style-type: none;
+    padding: default;
+}
+li{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+li a:visited { 
+    color: #c89a0b;
+    text-decoration: none;
+}
+li a:link {
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+.Home{
+    text-align: center;
+}
+.Home a:link{
+    color: white;    
+}
+.Home a:visited{
+    color: white;
+}
